@@ -1,0 +1,37 @@
+:root {
+	--main-purple: #402B4C;
+	--purple: #957D86;
+	--main-pink: #E9A6A6;
+	--pink: #FBE3D7;
+	--tosca: #86DFED;
+  }
+.bg-gradient-purple{
+    background-color: var(--main-purple);
+    background-image: linear-gradient(180deg, var(--main-purple) 50%, var(--purple) 100%);
+    background-size: cover;
+}
+.sidebar .nav-item .collapse .collapse-inner .collapse-item.active,
+.sidebar .nav-item .collapsing .collapse-inner .collapse-item.active {
+    color: var(--main-purple);
+    font-weight: 700;
+}
+.text-purple {
+    color: var(--main-purple) !important;
+}
+.text-young-purple {
+    color: var(--purple) !important;
+}
+.text-pink {
+    color: var(--main-pink) !important;
+}
+.text-young-pink {
+    color: var(--pink) !important;
+}
+.border-left-pink {
+    border-left: 0.25rem solid var(--main-pink) !important;
+}
+.bg-register-image {
+    background: url("https://images.unsplash.com/photo-1505506874110-6a7a69069a08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    background-position: center;
+    background-size: cover;
+}
